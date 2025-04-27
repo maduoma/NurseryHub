@@ -1,0 +1,43 @@
+# Generate .editorconfig file
+# For more information: https://editorconfig.org
+root = true
+
+[*]
+indent_style = spaces
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 120
+
+[*.{js,jsx,ts,tsx}]
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 120
+[*.{json,md}]
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
+insert_final_newline = true
+[*.{html,css,scss,sass}]
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
+insert_final_newline = true
+[*.{yml,yaml}]
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
+insert_final_newline = true
+[*.{xml,svg}]
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
+insert_final_newline = true
+[*.{sh,bat}]
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
